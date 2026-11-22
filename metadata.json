@@ -1,0 +1,6 @@
+{
+  "name": "AgroSwarm 3D",
+  "description": "Autonomous agricultural multi-robot swarm simulation featuring A* pathfinding, distributed task allocation, obstacle avoidance, and fleet energy management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

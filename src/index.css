@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Chakra Petch', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #07140d;
+    color: #ecfdf5;
+    font-family: var(--font-sans);
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek dark-green scrollbars for HUD logs */
+.hud-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.hud-scroll::-webkit-scrollbar-track {
+  background: rgba(8, 24, 16, 0.5);
+}
+
+.hud-scroll::-webkit-scrollbar-thumb {
+  background: rgba(34, 211, 238, 0.3);
+  border-radius: 3px;
+}
+
+.hud-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(163, 230, 53, 0.55);
+}
